@@ -77,10 +77,18 @@ Extra: {
 
 # ML Pipeline Lifecycle
 
+![image](https://github.com/TaikerLiang/MLOps-Demo/assets/850956/f590af78-91d4-4ef1-a171-0e71c48f0c22)
+
 
 # Folder Structure
 * dags: This directory contains the main DAG (Directed Acyclic Graph) functions.
 * dags/func: Within this directory, sub-folders are organized for modularization. Each folder name corresponds to a main DAG function. Inside each sub-folder, the entire ML pipeline is divided into different steps, with each step having its own file to complete the related function.
+
+
+# Final Airflow Graph
+
+![image](https://github.com/TaikerLiang/MLOps-Demo/assets/850956/6b080c9a-e1bb-407e-ac62-545fcd23782f)
+
 
 
 # Reference
