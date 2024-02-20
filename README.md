@@ -28,6 +28,9 @@ We will use the LocalStack to mock AWS S3 service
 
 > .env
 
+* For the AIRFLOW_UID you can use this command to get it `echo $(id -u)`
+* For the AIRFLOW_PROJ_DIR you should input your local folder path
+
 ```
 AIRFLOW_UID=
 AIRFLOW_PROJ_DIR= 
